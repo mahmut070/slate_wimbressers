@@ -138,9 +138,9 @@
       if (slider.settings.randomStart) slider.settings.startSlide = Math.floor(Math.random() * slider.children.length);
       // store active slide information
       slider.active = {
-        index: slider.settings.startSlide
-      }
-      // store if the slider is in carousel mode (displaying / moving multiple slides)
+          index: slider.settings.startSlide
+        }
+        // store if the slider is in carousel mode (displaying / moving multiple slides)
       slider.carousel = slider.settings.minSlides > 1 || slider.settings.maxSlides > 1;
       // if carousel, force preloadImages = 'all'
       if (slider.carousel) slider.settings.preloadImages = 'all';

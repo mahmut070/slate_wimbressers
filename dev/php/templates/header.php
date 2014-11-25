@@ -102,11 +102,12 @@
                      </div>
                     <div class="u-gridCol6">
                         <div class="Header-zoeken"> <!-- floating -->
+
                             
                         </div>
                          <div class="Header-winkelmandje">
                             <img class="header-winkelmandje" src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/arrow-collapse.svg"/>
-                            <p class="show-more header-winkelmandje">Meer info</p>
+                            <p class="show-more header-winkelmandje" style="color: #0C5A88;">Bekijk winkelmand</p>
 
                             <div id="shoppingcart"></div>
                         </div>

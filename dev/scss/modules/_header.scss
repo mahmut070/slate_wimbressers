@@ -76,6 +76,11 @@
      font-weight: 200;
      vertical-align: middle;
      cursor: pointer;
+
+}
+
+img.header-winkelmandje {
+	transform: rotate(-90deg);
 }
 
 
@@ -109,7 +114,10 @@
     a:hover {
     text-decoration: none;
   }
-  
+
+img.header-winkelmandje.collapsed {
+
+	transform: rotate(0deg);
 }
 // -------------------------------------
 // Module specific variables
@@ -214,3 +222,4 @@
   }
 
 }
+
