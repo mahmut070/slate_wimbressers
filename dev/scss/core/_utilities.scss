@@ -1,0 +1,131 @@
+// *************************************
+//
+//   Utilities
+//   -> Single purpose declarations
+//
+// *************************************
+
+// -------------------------------------
+// Micro utilities
+// -------------------------------------
+
+.u-cf {
+  @include clearfix;
+}
+
+.u-hide {
+  display: none;
+}
+
+// -------------------------------------
+// Layout
+// -------------------------------------
+
+.u-layoutBlock {
+  display: block;
+}
+
+.u-layoutFullWidth {
+  width: 100%;
+}
+
+// -------------------------------------
+// Grid
+// -------------------------------------
+
+.u-gridContainer {
+  @include outer-container;
+  padding-left: $l-insideGutter;
+  padding-right: $l-insideGutter;
+}
+
+.u-gridRow, .row-fluid {
+  @include row();
+}
+.u-gridCol1, .span1 {
+	@include span-columns(1);
+}
+.u-gridCol2, .span2 {
+	@include span-columns(2);
+}
+.u-gridCol3, .span3 {
+	@include span-columns(3);
+}
+.u-gridCol4, .span4 {
+	@include span-columns(4);
+}
+.u-gridCol5, .span5 {
+	@include span-columns(5);
+}
+.u-gridCol6, .span6 {
+	@include span-columns(6);
+}
+.u-gridCol7, .span7 {
+	@include span-columns(7);
+}
+.u-gridCol8, .span8 {
+	@include span-columns(8);
+}
+.u-gridCol9, .span9 {
+	@include span-columns(9);
+}
+.u-gridCol10, .span10 {
+	@include span-columns(10);
+}
+.u-gridCol11, .span11 {
+	@include span-columns(11);
+}
+.u-gridCol12, .span12 {
+	@include span-columns(12);
+}
+
+@media screen and (max-width: 700px){
+  .u-gridCol1, .u-gridCol2, .u-gridCol3, .u-gridCol4, .u-gridCol5,
+  .u-gridCol6, .u-gridCol7, .u-gridCol8, .u-gridCol9, .u-gridCol10,
+  .u-gridCol11,
+  .span1, .span2, .span3, span4, .span5, .span6, .span7, .span8, 
+  .span9, .span10, .span11
+   {
+    @include span-columns(12);
+  }
+
+}
+// -------------------------------------
+// Text
+// -------------------------------------
+
+.u-textShout {
+  text-transform: uppercase;
+}
+
+.u-textFat {
+  font-weight: bold;
+}
+
+.u-textLead {
+  font-size: 125%;
+}
+
+.u-textRight {
+  text-align: right;
+}
+
+.u-textCenter {
+  text-align: center;
+}
+
+.u-textLeft {
+  text-align: left;
+}
+
+// -------------------------------------
+// Objects
+// -------------------------------------
+
+.u-objLeft {
+  float: left;
+}
+
+.u-objRight {
+  float: right;
+}

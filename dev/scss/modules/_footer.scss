@@ -1,0 +1,58 @@
+.Footer {
+	padding: rem(0px) 0;
+	color: $c-white;
+	background-color: $c-blue;;
+	font-size: 16px;
+	letter-spacing: 1px;
+
+}
+
+// RESPONSIVE FOOTER
+.Footer-inner .widget {
+	@include span-columns(4);
+	@media screen and(max-width: 980px){
+		@include span-columns(12);
+	}
+}
+
+.Footer-inner {
+}
+
+//style the widgets
+.Footer-inner .widget {
+
+}
+
+.Socket {
+	background-color: #154571;
+	color: white;
+	text-align:center;
+}
+
+.Socket span {
+	padding:0;
+	margin: 0;
+}
+
+.Socket a {
+	padding:0;
+	margin: 0;
+	color: #f9971a;
+	font-weight:bold;
+}
+
+.Socket a:hover {
+	color: $c-white;
+	font-weight:bold;
+}
+
+.footer-logo {
+ 	-webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.39);
+ 	-moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.39);
+ 	box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.39);	
+}
+
+.td-openingstijd {
+	width:175px;
+}
+

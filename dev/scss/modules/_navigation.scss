@@ -1,0 +1,158 @@
+// *************************************
+//
+// Navigation
+// -> Reusable navigation module
+//
+// *************************************
+
+.Navigation {
+    @include clearfix;
+    text-align: left;
+    background: $c-blue;
+    font-size: 14px;
+    color: white;
+    margin-top:0px;
+    font-family: $t-fontFamily;
+    font-weight: 200;
+}
+
+.Navigation ul {
+  margin: 0; 
+}
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// Module-variableName
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+.Navigation-link.is-active {
+  text-decoration: underline;
+}
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- List item ----- //
+
+.Navigation-listItem {
+  display: block;
+  float: left;
+  //margin: 0 rem(6px);
+  padding: rem(18px);
+  height: 55px;
+  border-right: 1px solid white;
+  &:first-of-type {
+    margin-left: 0;
+  }
+  &:last-of-type {
+    margin-right: 0;
+    border-right: 0;
+  }
+}
+
+// ----- Navigation link ----- //
+
+.Navigation-link {
+  text-transform: uppercase;
+  color: $c-white;
+  display: block;
+}
+
+.Navigation-link--invertedBold {
+  color: $c-white; 
+  font-weight: bold;
+}
+
+.Top-Nav {
+  position: relative;
+  .Logo {
+    float: left;
+    background-image: url('../img/logo.png');
+    background-size: cover;
+      height: 100px;
+      width: 270px;
+      margin: 20px 0;
+      
+      // -- Temp border-radius --
+      border-radius: 20px;
+      
+      &:hover {
+        opacity: 0.7;
+        -webkit-transition:all 0.2s ease;
+        -moz-transition:all 0.2s ease;
+        -o-transition:all 0.2s ease;
+      }
+  }
+  
+  .Top-img {
+    position: relative;
+    top: 0;
+    left: 0;
+    img {
+      position: absolute;
+      width: 58px;
+      height: 58px;
+      left: -65px;
+      top: -10px;
+    }
+  }
+  
+  .Top-contact {
+    position: relative;
+    width: 540px;
+    float: right;
+    
+    .Top-tel {
+      position: absolute;
+      top: 50px;
+      left: 0;
+      a,span {
+        color: white;
+        font-size: 28px;
+      }
+      
+        &:hover {
+          opacity: 0.7;
+          -webkit-transition:all 0.2s ease;
+          -moz-transition:all 0.2s ease;
+          -o-transition:all 0.2s ease;
+        }
+    }
+    
+    .Top-mob {
+      position: absolute;
+      top: 50px;
+      right: 0px;
+      
+      a,span {
+        color: white;
+        font-size: 30px;
+      }
+      
+        &:hover {
+          opacity: 0.7;
+          -webkit-transition:all 0.2s ease;
+          -moz-transition:all 0.2s ease;
+          -o-transition:all 0.2s ease;
+        }     
+    }
+    
+  }/* Top-contact */
+  
+}/* Top-nav */

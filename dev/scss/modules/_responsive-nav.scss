@@ -1,0 +1,157 @@
+// *************************************
+//
+// responsive-nav
+// -> The resopnsive nav menu css
+//
+// *************************************
+
+.Mob-contact-ico {
+	display: none;
+}
+
+
+.Navigation-menuToggle {
+  display: none;
+}
+.Navigation-menuToggle {
+//background-color: white;
+  width: 36px;
+  height: 36px;
+  border-radius: 7px;
+  margin-top: 7px;	
+  background-color: transparent;
+  border: 3px solid white;
+  cursor: pointer;
+  float: right;    
+	&:hover {
+		//	background-color: #fafafa;
+	}
+}
+
+.Nav-toggle {
+  .Icon.Icon--inline {
+    fill: white;
+    display: block;
+    margin: auto;
+    margin-top: 4px;
+    height: 25px;
+    width: 25px;
+
+  }
+}
+
+.winkelmandje{
+	
+	float:left;
+}
+
+.Mob-contact-ico {
+	display: none;
+}
+
+@media all and (max-width: 1040px) {
+ 	#js-navCollapseTarget {
+		display: none;
+        position: relative;
+        left: 0;
+        margin: 0;
+        width: 100%;
+	 }
+
+	  #js-navCollapse {
+		display: block;
+		fill: white;
+
+		.Icon {
+			margin-left: 2px;
+			margin-top: 4px;
+			width: 1.6em;
+			height: 1.2em;
+		}
+	 }
+
+
+	//  Adjust the sizes and colors for erverything to your choice
+	.Navigation {	
+		position: relative;
+		margin-bottom: 30px;
+	}
+
+	.Navigation-list {
+		position: static;
+        border: 0px solid;
+        box-shadow: 0 0 0 #fff;
+
+
+	}
+
+	.Navigation-listItem {
+		display: block;
+		float: none;
+		line-height: 30px;
+		border-left: 0 solid;
+		width: 100%;
+		border-right: 0;
+
+		&:last-of-type {
+			margin-bottom: 15px;
+		}
+
+		&:hover {
+			//background-color: $c-blue;
+
+			-webkit-transition:all 0.2s ease;
+			-moz-transition:all 0.2s ease;
+			-o-transition:all 0.2s ease;
+			a.Navigation-link {
+			//	color: $c-blue;
+				text-decoration: none;
+
+			}
+		}
+
+        &:first-of-type a {       
+          padding-top: 10px;  
+        }
+
+        &:last-of-type a {              
+          border-bottom: 0px solid;
+        }
+    }
+
+    .Navigation-link {
+        line-height: 58px;
+		color: white;
+		display: block;
+		text-align: center;
+        font-size: 20px;
+		padding: 5px;
+		margin: 0;
+		font-weight: 400;
+		letter-spacing: 1.7px;
+	    &:hover {
+            background-color: #1e719a;
+            color: white;
+        }
+    }
+
+}
+
+@media all and (min-width: 1040px) {  
+  #js-navCollapse {
+    display: none;
+  }
+}
+
+@media all and (max-width: 500px) { 
+  .logo-top {
+    width: 220px;
+    margin-top: 38px;
+  }
+  
+  .logo-bot {
+    margin-top: 16px;
+    width: 210px;
+  }
+}
+

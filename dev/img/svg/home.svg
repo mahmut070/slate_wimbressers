@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="32.053px" height="27.538px" viewBox="0 0 32.053 27.538" enable-background="new 0 0 32.053 27.538" xml:space="preserve">
+<g id="Layer_2" display="none">
+	<rect x="1.999" y="407.526" display="inline" fill="#717375" width="970" height="50"/>
+</g>
+<g id="Layer_1">
+	<g>
+		<text transform="matrix(1 0 0 1 402.1465 438.2729)" fill="#FFFFFF" font-family="'OpenSans'" font-size="14">Scooters</text>
+		<text transform="matrix(1 0 0 1 402.1465 438.2729)" fill="#FFFFFF" font-family="'OpenSans'" font-size="14">Scooters</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 492.541 438.2729)" fill="#FFFFFF" font-family="'OpenSans'" font-size="14">E-Bike</text>
+		<text transform="matrix(1 0 0 1 492.541 438.2729)" fill="#FFFFFF" font-family="'OpenSans'" font-size="14">E-Bike</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 555.8008 438.2729)" fill="#FFFFFF" font-family="'OpenSans'" font-size="14">Fietsen</text>
+		<text transform="matrix(1 0 0 1 555.8008 438.2729)" fill="#FFFFFF" font-family="'OpenSans'" font-size="14">Fietsen</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 630.4844 438.2729)" fill="#FFFFFF" font-family="'OpenSans'" font-size="14">Service</text>
+		<text transform="matrix(1 0 0 1 630.4844 438.2729)" fill="#FFFFFF" font-family="'OpenSans'" font-size="14">Service</text>
+	</g>
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="387.001" y1="407.527" x2="387.001" y2="457.527"/>
+	<g>
+		<text transform="matrix(1 0 0 1 278.8999 438.2729)" fill="#FFFFFF" font-family="'OpenSans'" font-size="14">Aanbiedingen</text>
+		<text transform="matrix(1 0 0 1 278.8999 438.2729)" fill="#FFFFFF" font-family="'OpenSans'" font-size="14">Aanbiedingen</text>
+	</g>
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="261" y1="407.527" x2="261" y2="457.527"/>
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="480.001" y1="407.527" x2="480.001" y2="457.527"/>
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="542.001" y1="407.527" x2="542.001" y2="457.527"/>
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="618.001" y1="407.527" x2="618.001" y2="457.527"/>
+	<g>
+		<text transform="matrix(1 0 0 1 707.3027 438.2729)" fill="#FFFFFF" font-family="'OpenSans'" font-size="14">Contact</text>
+		<text transform="matrix(1 0 0 1 707.3027 438.2729)" fill="#FFFFFF" font-family="'OpenSans'" font-size="14">Contact</text>
+	</g>
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="693.001" y1="407.527" x2="693.001" y2="457.527"/>
+</g>
+<g id="flat_icon_home">
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="-5" y="-6" width="37.053" height="33.538"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<rect x="-5" y="-6" clip-path="url(#SVGID_2_)" fill="none" width="37.053" height="33.538"/>
+		<g clip-path="url(#SVGID_2_)">
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="52.3984" y1="36.1226" x2="3.7369" y2="8.0278">
+				<stop  offset="0.2071" style="stop-color:#154571;stop-opacity:0"/>
+				<stop  offset="1" style="stop-color:#000000"/>
+			</linearGradient>
+			<polygon opacity="0.5" fill="url(#SVGID_3_)" points="4.143,19.412 4.143,7.325 12.048,1.17 16.595,5.346 19.531,0.493 
+				54.362,32.721 17.662,32.721 4.262,20.352 			"/>
+			<path fill="#FFFFFF" d="M19.531,5.475V0.493h-3.044v2.83l-4.439-3.14L0.306,8.487l1.847,2.241l1.264-0.893v10.292h17.263V9.835
+				l1.263,0.893l1.847-2.241L19.531,5.475z M18.988,18.56h-3.896v-5.953H9.004v5.953H5.108V8.837l6.939-4.911l6.94,4.911V18.56z"/>
+		</g>
+	</g>
+</g>
+</svg>
