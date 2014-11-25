@@ -16,7 +16,12 @@ jQuery(document).ready(function($) {
     speed: 1500,
     infiniteLoop: true,
     hideControlOnEnd: false,
-    touchEnabled: false,
-    pager: false
+    touchEnabled: true,
+    pager: false,
+
+    onSliderLoad: function() {
+      $('.Slider').css('visibility', 'visible');
+
+    }
   });
 });

@@ -1,9 +1,8 @@
 <?php
 /*
-Template Name: Page w/ sidebar on left
+Template Name: Landingspagina
 */
 ?>
-
 
 <?php get_header(); ?>
 
@@ -11,21 +10,21 @@ Template Name: Page w/ sidebar on left
 		<div class="u-gridRow">
 			<div class="u-gridCol2">
 
-				 <div class="Leftsidebar-thumbs">
+             	<div class="Leftsidebar-thumbs">
                 	<p class="Thumbs-titel">SCOOTERS</p>
-                	<a href="/scooters"><img class="Thumbnails" src="<?php echo get_stylesheet_directory_uri();?>/img/scooter.png"></a>
+                	<a href="scooters"><img class="Thumbnails" src="<?php echo get_stylesheet_directory_uri();?>/img/scooter.png"></a>
 				 </div>		 
 				
 
              	<div class="Leftsidebar-thumbs">
                 	<p class="Thumbs-titel">FIETSEN</p>
-                	<a href="/fietsen"><img class="Thumbnails" src="<?php echo get_stylesheet_directory_uri();?>/img/fiets.png"></a>
+                	<a href="fietsen"><img class="Thumbnails" src="<?php echo get_stylesheet_directory_uri();?>/img/fiets.png"></a>
 				 </div>		
 
 
              	<div class="Leftsidebar-thumbs">
                 	<p class="Thumbs-titel">AANBIEDINGEN</p>
-                	<a href="/aanbiedingen"><img class="Thumbnails" src="<?php echo get_stylesheet_directory_uri();?>/img/aanbieding.png"></a>
+                	<a href="aanbiedingen"><img class="Thumbnails" src="<?php echo get_stylesheet_directory_uri();?>/img/aanbieding.png"></a>
 				 </div>		
 
 				<div>
@@ -35,7 +34,11 @@ Template Name: Page w/ sidebar on left
 			</div>
 
 			<div class="u-gridCol10">
-
+				<div class="Header">
+					<div class="Slider-img">
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider1.png">
+					</div>
+				</div>
 
 
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -53,4 +56,3 @@ Template Name: Page w/ sidebar on left
 	</div>
 
 <?php get_footer(); ?>
-

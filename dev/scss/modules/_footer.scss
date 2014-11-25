@@ -4,7 +4,11 @@
 	background-color: $c-blue;;
 	font-size: 16px;
 	letter-spacing: 1px;
+	margin-top: 40px;
+}
 
+.menu-0{
+	color: #000000;
 }
 
 // RESPONSIVE FOOTER
@@ -12,6 +16,7 @@
 	@include span-columns(4);
 	@media screen and(max-width: 980px){
 		@include span-columns(12);
+		margin-top:40px;
 	}
 }
 
@@ -56,3 +61,9 @@
 	width:175px;
 }
 
+@media screen and (max-width: 700px){
+  .footer-logo{
+    width: 100px;
+    height: 93px;
+  }
+}

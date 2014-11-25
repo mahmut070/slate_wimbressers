@@ -36,7 +36,20 @@ Template Name: Home
 			<div class="u-gridCol10">
 				<div class="Header">
 					<div class="Slider-img">
-						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider1.png">
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider/image7.jpg">
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider/image1.jpg">
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider/image2.jpg">
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider/image6.jpg">
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider/image5.jpg">
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider/image4.jpg">
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider/image3.jpg">
+					</div>
+
+					<div class="Slide-one-text">
+						<a href="/aanmelden">
+							<p>OCCASIONS</p>
+							<span class="slider-regel-twee">Kom eens binnen en kijk vrijblijvend <br> naar ons geweldig assortiment!</span>
+						</a>
 					</div>
 				</div>
 
@@ -50,6 +63,9 @@ Template Name: Home
 						</div>
 					</article>
 				<?php endwhile; endif; ?>
+
+				<img src="<?php echo get_stylesheet_directory_uri();?>/img/collage.png">
+
 			</div>
 
 		</div>

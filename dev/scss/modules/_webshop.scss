@@ -1,4 +1,5 @@
 
+
 .product-overview {
 	.product-detail-button {
 		border-bottom: 1px solid #6b6b6b;
@@ -6,6 +7,7 @@
 
 	.product {
 		position: relative;
+		margin-top: 45px;
 		}
 
 	.product-title {
@@ -145,4 +147,42 @@
 .Thumbnails {
 	border:1px solid #0c5a89;
 	width: 100%;
+}
+
+
+.prijs-bar{
+	background: rgb(255, 235, 172);
+	border: 1px solid rgb(239, 214, 43);
+	color: rgb(190, 137, 0);
+	border-radius: 5px;
+	padding: 5px 10px;
+}
+
+.termijnen{
+	background: #90c7f1;
+	border: 1px solid #5FA4D8;
+	color: #216EA8;
+	border-radius: 5px;
+	padding: 5px 10px;
+}
+
+@media screen and (max-width: 700px){
+	#shopping-cart-dropdown {
+		display: none; //will be shown when user clicks on it
+		position: static;
+		background-color: white;
+		padding: 10px;
+		width: 100%;
+	  	-webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.39);
+	  	-moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.39);
+	  	box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.39);
+	}
+
+	.Header-winkelmandje{
+		width: 100%;
+	}
+	
+	.product{
+		width: 100%;
+	}
 }

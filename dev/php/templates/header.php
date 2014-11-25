@@ -20,8 +20,8 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/apple-touch-icon.png">
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/img/app-icon-wimbressers.png">
 
     <!-- build:remove:expanded -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/production.min.css">
@@ -43,10 +43,10 @@
 
   </head>
   <body <?php body_class(); ?> >
-
+  
     <div class="Header">
         <div class="u-gridContainer Header-wrapper">
-            <img class="header-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png"/>
+            <a href="/home"><img class="header-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png"/></a>
             <div class="u-gridRow header-space">
                 <div class="u-gridCol2">-
                 </div>
@@ -55,7 +55,7 @@
                         <h4 class="header-titel">WELKOM BIJ BRESSERS TWEEWIELERS!</h4>
                     </div>
                     <div class="Header-telefoon">
-                        <a href="tel:0648038209">
+                        <a href="tel:0165382325">
                             <img class="header-imgTel" src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/telefoon.svg"> 
                             <h4 class="header-textTel">0165 - 38 23 25</h4>
                         </a>
@@ -63,7 +63,6 @@
                 </div>
             </div>
         </div>  
-
         <div class="Header-bluebar  header-space"> <!-- 100%, blauwe bg color -->
             <div class="u-gridContainer">
                 <div class="u-gridRow">
@@ -76,7 +75,7 @@
                                     <use xlink:href="#icon-menu2"></use>
                                 </svg>
                             </a>
-                            <a href="tel:0648038209" class="Navigation-menuToggle telefoon" id="js-navCollapse">
+                            <a href="tel:0165382325" class="Navigation-menuToggle telefoon" id="js-navCollapse">
                                 <svg class="Icon Icon--inline" viewBox="0 0 128 128">
                                     <use xlink:href="#icon-phone"></use>
                                 </svg>
@@ -98,9 +97,11 @@
                 <div class="u-gridRow header-space">
                     <div class="u-gridCol2"><p class="space-opacity">></p>
                     </div>
-                    <div class="u-gridCol10">
+                     <div class="u-gridCol4">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/levertijd.png"/>
+                     </div>
+                    <div class="u-gridCol6">
                         <div class="Header-zoeken"> <!-- floating -->
-                            <h4 class="header-titel">ZOEKEN</h4>
                             
                         </div>
                          <div class="Header-winkelmandje">

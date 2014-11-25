@@ -87,6 +87,7 @@
 
 	.Navigation-listItem {
 		display: block;
+		height: 100%;
 		float: none;
 		line-height: 30px;
 		border-left: 0 solid;
@@ -120,7 +121,7 @@
     }
 
     .Navigation-link {
-        line-height: 58px;
+        line-height: 30px;
 		color: white;
 		display: block;
 		text-align: center;
