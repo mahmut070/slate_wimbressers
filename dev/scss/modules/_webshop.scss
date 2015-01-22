@@ -17,6 +17,8 @@
 		position: absolute;
 		top: 0px;
 		width: 100%;
+		color: #3e3e3e;
+		font-weight: bold;
 	}
 
 	.product-price-from {
@@ -29,6 +31,8 @@
 		margin-top: 50px;
 		position: absolute;
 		top: 0px;
+		color: #0c5a89;
+		font-weight: bold;
 	}
 
 	.product-image {
@@ -45,7 +49,7 @@
 	.product-detail-link {
 		background-color: #0c5a89;
 		color: white;
-		padding: 0px 5px 0px 5px;
+		padding: 0px 5px 1px 5px;
 	}
 
 }

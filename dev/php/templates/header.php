@@ -42,7 +42,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
   </head>
-  <body <?php body_class(); ?> >
+  <body <?php body_class(); ?>
   
     <div class="Header">
         <div class="u-gridContainer Header-wrapper">
@@ -66,7 +66,7 @@
         <div class="Header-bluebar  header-space"> <!-- 100%, blauwe bg color -->
             <div class="u-gridContainer">
                 <div class="u-gridRow">
-                    <div class="u-gridCol2">x
+                    <div class="u-gridCol2"><span class="verberg">x</span>
                     </div>
                     <div class="u-gridCol10">
                         <div class="u-cf">
@@ -95,7 +95,7 @@
         <div class="Header-search"> <!-- 100%, blauwe bg color -->
             <div class="u-gridContainer">
                 <div class="u-gridRow header-space">
-                    <div class="u-gridCol2"><p class="space-opacity">></p>
+                    <div class="u-gridCol2"><p class="space-opacity"></p>
                     </div>
                      <div class="u-gridCol4">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/levertijd.png"/>

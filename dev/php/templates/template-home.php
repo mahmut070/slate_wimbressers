@@ -31,7 +31,7 @@ Template Name: Home
 					</div>
 
 					<div class="Slide-one-text">
-						<a href="/aanmelden">
+						<a href="/categories/1207/#Occasions">
 							<p>OCCASIONS</p>
 							<span class="slider-regel-twee">Kom eens binnen en kijk vrijblijvend <br> naar ons geweldig assortiment!</span>
 						</a>
